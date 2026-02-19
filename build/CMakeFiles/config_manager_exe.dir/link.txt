@@ -1,0 +1,3 @@
+C:\msys64\ucrt64\bin\cmake.exe -E rm -f CMakeFiles\config_manager_exe.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\config_manager_exe.dir/objects.a @CMakeFiles\config_manager_exe.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe -Wl,--whole-archive CMakeFiles\config_manager_exe.dir/objects.a -Wl,--no-whole-archive -o config_manager_exe.exe -Wl,--out-implib,libconfig_manager_exe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\config_manager_exe.dir\linkLibs.rsp

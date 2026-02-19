@@ -1,0 +1,3 @@
+C:/Teste Proliink/build/CMakeFiles/config_manager_exe.dir
+C:/Teste Proliink/build/CMakeFiles/edit_cache.dir
+C:/Teste Proliink/build/CMakeFiles/rebuild_cache.dir
