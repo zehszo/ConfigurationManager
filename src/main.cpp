@@ -51,7 +51,7 @@ std::expected<std::unique_ptr<IConfigParser>, ErrorCode> createParser(const std:
 int main() { // 1. Inicialização do sistema de configuração
     
     // 2. Criamos o parser usando a função createParser, que lida com a validação do arquivo e retorna um std::expected contendo o parser ou um código de erro. Isso permite que o código de inicialização seja limpo e fácil de entender, enquanto a complexidade da validação do arquivo fica oculta dentro da função createParser.
-    auto parser = createParser("config_error.ini");
+    auto parser = createParser("config.ini");
     
     if (!parser) // Verifica se o parser foi criado com sucesso. Se não, exibe uma mensagem de erro e aguarda o usuário pressionar Enter antes de sair.
     {
