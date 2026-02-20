@@ -1,30 +1,11 @@
 CMakeFiles/config_manager_exe.dir/src/IniParser.cpp.obj: \
  C:\Teste\ Proliink\src\IniParser.cpp C:/TESTEP~1/include/IniParser.hpp \
- C:/TESTEP~1/include/IConfigParser.hpp \
- C:/msys64/ucrt64/include/c++/15.2.0/expected \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/version.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/string \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/pstl_config.h \
- C:/msys64/ucrt64/include/c++/15.2.0/initializer_list \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/exception.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/invoke.h \
- C:/msys64/ucrt64/include/c++/15.2.0/type_traits \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/move.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_construct.h \
- C:/msys64/ucrt64/include/c++/15.2.0/new \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/iterator_concepts.h \
- C:/msys64/ucrt64/include/c++/15.2.0/concepts \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/ptr_traits.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/ranges_cmp.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/concept_check.h \
- C:/msys64/ucrt64/include/c++/15.2.0/debug/assertions.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/utility.h \
- C:/msys64/ucrt64/include/c++/15.2.0/string \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stringfwd.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/memoryfwd.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/char_traits.h \
@@ -42,7 +23,21 @@ CMakeFiles/config_manager_exe.dir/src/IniParser.cpp.obj: \
  C:/msys64/ucrt64/include/_mingw_stat64.h \
  C:/msys64/ucrt64/include/swprintf.inl \
  C:/msys64/ucrt64/include/sec_api/wchar_s.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/type_traits \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/version.h \
  C:/msys64/ucrt64/include/c++/15.2.0/compare \
+ C:/msys64/ucrt64/include/c++/15.2.0/concepts \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_construct.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/new \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/exception.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/move.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/iterator_concepts.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ptr_traits.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ranges_cmp.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/concept_check.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/debug/assertions.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/allocator.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/new_allocator.h \
@@ -62,6 +57,7 @@ CMakeFiles/config_manager_exe.dir/src/IniParser.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/cxxabi_forced.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h \
  C:/msys64/ucrt64/include/c++/15.2.0/ext/type_traits.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/utility.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_function.h \
  C:/msys64/ucrt64/include/c++/15.2.0/backward/binders.h \
  C:/msys64/ucrt64/include/c++/15.2.0/ext/numeric_traits.h \
@@ -71,7 +67,9 @@ CMakeFiles/config_manager_exe.dir/src/IniParser.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/predefined_ops.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bit \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/refwrap.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/invoke.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/range_access.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/initializer_list \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h \
  C:/msys64/ucrt64/include/c++/15.2.0/ext/alloc_traits.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/alloc_traits.h \
@@ -107,7 +105,6 @@ CMakeFiles/config_manager_exe.dir/src/IniParser.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/15.2.0/tuple \
- C:/TESTEP~1/lib/error-handler.hpp \
  C:/msys64/ucrt64/include/c++/15.2.0/fstream \
  C:/msys64/ucrt64/include/c++/15.2.0/istream \
  C:/msys64/ucrt64/include/c++/15.2.0/ios \
@@ -190,4 +187,7 @@ CMakeFiles/config_manager_exe.dir/src/IniParser.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_map.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_multimap.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/erase_if.h \
+ C:/TESTEP~1/include/IConfigParser.hpp \
+ C:/msys64/ucrt64/include/c++/15.2.0/expected \
+ C:/TESTEP~1/lib/error-handler.hpp \
  C:/msys64/ucrt64/include/c++/15.2.0/iostream
