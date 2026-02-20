@@ -35,6 +35,7 @@ IniParser::IniParser(const std::string& filePath) : m_filePath(filePath)
         {
             std::string key = line.substr(0, delimiterPos); // Extrai a chave, que é a parte da linha antes do delimitador '='.
             std::string value = line.substr(delimiterPos + 1); // Extrai o valor, que é a parte da linha após o delimitador '='.
+            
             m_configData[key] = value; // Armazena a chave e o valor no mapa de configuração, permitindo que os métodos parseTcp e parseUart acessem os dados de configuração de forma eficiente.
         }
     }
@@ -122,7 +123,7 @@ std::expected<UartConfig, ErrorCode> IniParser::parseUart()
         } 
         else if (key == "parity") // Se a chave for "parity", verifica se o valor é "None", "Even" ou "Odd".
         {
-            if (!value.empty() && (value == "None" || value == "Even" || value == "Odd")) // Verifica se o valor da paridade é "None", "Even" ou "Odd". Se for válido, armazena o valor na estrutura UartConfig e incrementa o contador de campos encontrados.
+            if (!value.empty()) // Verifica se o valor da paridade é "None", "Even" ou "Odd". Se for válido, armazena o valor na estrutura UartConfig e incrementa o contador de campos encontrados.
             {
                 uartConfig.parity = value; // Armazena o valor da paridade na estrutura UartConfig.
                 fieldsFound++; // Incrementa o contador de campos encontrados para indicar que o campo "parity" foi encontrado e preenchido corretamente.

@@ -18,7 +18,8 @@ Biblioteca C++ desenvolvida para o gerenciamento eficiente e seguro de configura
 mkdir build 
 cd build
 cmake ..
-cmake --build .
+cd ..
+cmake --build build
 ```
 
 ## Execução
@@ -26,7 +27,24 @@ cmake --build .
 Certifique-se de que o arquivo `config.ini` (ou qualquer arquivo que será lido) está presente no mesmo diretório do executável.
 
 ```bash
+cd examples
+.\config_manager_exe.exe
+```
+
+## Alternância entre os arquivos de exemplo
+
+Após a leitura de algum dos arquivos de exemplo (config.ini ou config_error.ini), é possível alternar para o outro com o seguinte procedimento:
+
+Altera-se o código na linha 54 do arquivo main.cpp
+```bash
+auto parser = createParser("arquivo_desejado.ini");
+```
+
+Executa-se os seguintes comandos para recompilar o código e executar com o novo arquivo:
+
+```bash
 cd ..
+cmake --build build
 cd examples
 .\config_manager_exe.exe
 ```
@@ -36,4 +54,4 @@ cd examples
 - `include/`: Headers da interface e definições de contratos.
 - `lib/`: Utilitários globais e tratamento de erros via X-Macros
 - `src/`: Implementações da lógica do Manager e do Parser específico para arquivos INI.
-- `examples/`: Arquivo executável e .ini's de exemplo/teste.
+- `examples/`: Arquivos .ini de exemplo/teste.

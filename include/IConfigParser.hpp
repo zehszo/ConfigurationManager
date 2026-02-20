@@ -38,7 +38,7 @@ class IConfigParser
 public:
     virtual ~IConfigParser() = default; // Destrutor virtual para garantir que os recursos sejam liberados corretamente quando um objeto que implementa esta interface for destruído.
     virtual std::expected<TcpConfig, ErrorCode> parseTcp() = 0; // Método virtual puro para ler e interpretar os dados de configuração TCP do arquivo. Retorna um std::expected contendo a configuração TCP ou um código de erro, permitindo que o chamador lide com falhas.
-    virtual std::expected<UartConfig, ErrorCode> parseUart() = 0; // Método virtual puro para ler e interpretar os dados de configuração UART do arquivo. Retorna um std::expected contendo a configuração UART ou um código de erro, permitindo que o chamador lide com falhas.
+    virtual std::expected<UartConfig, ErrorCode> parseUart() = 0; // Método virtual puro para ler e interpretar os dados de configuração UART do arquivo, análogo ao método parseTcp.
 };
 
 #endif

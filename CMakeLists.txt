@@ -11,3 +11,7 @@ add_executable(config_manager_exe
     src/ConfigurationManager.cpp 
     src/IniParser.cpp
 )
+
+set_target_properties(config_manager_exe PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/examples"
+)
